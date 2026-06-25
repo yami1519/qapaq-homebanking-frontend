@@ -1,4 +1,4 @@
-import { CalendarClock, Lock, PiggyBank, Landmark } from 'lucide-react'
+﻿import { CalendarClock, Lock, PiggyBank, Landmark } from 'lucide-react'
 import { formatDate, formatTEA } from '../../utils/format.js'
 import Money from '../ui/Money.jsx'
 import Tabla from '../ui/Tabla.jsx'
@@ -91,3 +91,4 @@ function AhorroProgramado({ d }) {
     </div>
   )
 }
+

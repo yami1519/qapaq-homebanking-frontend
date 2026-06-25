@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { ArrowLeft, CheckCircle2, Fingerprint, Lock, Mail, Phone, UserPlus, Users } from 'lucide-react'
 import * as authService from '../services/authService.js'
@@ -158,3 +158,4 @@ const iconStyle = {
   color: '#6b7280',
   pointerEvents: 'none',
 }
+

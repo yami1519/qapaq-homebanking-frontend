@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Phone, Mail, MapPin } from 'lucide-react'
+﻿import { Facebook, Instagram, Twitter, Phone, Mail, MapPin } from 'lucide-react'
 import Logo from '../ui/Logo.jsx'
 
 const COLS = [
@@ -58,3 +58,4 @@ export default function PublicFooter() {
     </footer>
   )
 }
+

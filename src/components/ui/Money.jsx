@@ -1,4 +1,4 @@
-import { formatMoney, toNumber } from '../../utils/format.js'
+﻿import { formatMoney, toNumber } from '../../utils/format.js'
 import { useUI } from '../../context/UIContext.jsx'
 
 /**
@@ -39,3 +39,4 @@ export default function Money({ value, simbolo = 'S/', signo, colored = false, c
   const absText = formatMoney(Math.abs(n), { simbolo })
   return <span className={`hb-money ${colorClass} ${className}`}>{prefix}{absText}</span>
 }
+

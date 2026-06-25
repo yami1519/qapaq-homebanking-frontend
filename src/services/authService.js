@@ -1,4 +1,4 @@
-import hbApi, { TOKEN_KEY, USER_KEY } from './hb_api.js'
+﻿import hbApi, { TOKEN_KEY, USER_KEY } from './hb_api.js'
 
 /**
  * Login del CLIENTE (Banca por Internet de Financiera Qapaq).
@@ -73,3 +73,4 @@ function decodeJwtPayload(token) {
     return null
   }
 }
+

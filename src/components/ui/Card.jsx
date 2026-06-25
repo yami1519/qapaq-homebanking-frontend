@@ -1,4 +1,4 @@
-// Tarjeta blanca con borde redondeado y sombra suave.
+﻿// Tarjeta blanca con borde redondeado y sombra suave.
 export default function Card({ title, icon, actions, children, className = '' }) {
   return (
     <section className={`hb-card ${className}`}>
@@ -17,3 +17,4 @@ export default function Card({ title, icon, actions, children, className = '' })
     </section>
   )
 }
+

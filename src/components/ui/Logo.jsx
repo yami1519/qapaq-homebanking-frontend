@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Logo académico de Financiera Qapaq.
  * Isotipo: sello Q en amarillo, negro y blanco para mantener una identidad clara.
  *
@@ -67,3 +67,4 @@ export default function Logo({
     </span>
   )
 }
+

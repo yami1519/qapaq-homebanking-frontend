@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+﻿import { useNavigate } from 'react-router-dom'
 import { CreditCard, ListChecks, RefreshCw, Receipt, FilePlus2 } from 'lucide-react'
 import { useCreditos } from '../hooks/useCreditos.js'
 import { formatDate, toNumber } from '../utils/format.js'
@@ -66,3 +66,4 @@ export default function CuentasCreditoPage() {
     </PageLayout>
   )
 }
+

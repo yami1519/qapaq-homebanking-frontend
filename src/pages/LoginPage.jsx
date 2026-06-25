@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { Fingerprint, Lock, LogIn, ArrowLeft, UserPlus } from 'lucide-react'
 import { useHBAuth } from '../hooks/useHBAuth.js'
@@ -118,3 +118,4 @@ const iconStyle = {
   color: '#9ca3af',
   pointerEvents: 'none',
 }
+

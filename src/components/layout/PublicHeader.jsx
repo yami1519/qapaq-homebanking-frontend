@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+﻿import { useNavigate } from 'react-router-dom'
 import { Lock, Menu, UserPlus } from 'lucide-react'
 import Logo from '../ui/Logo.jsx'
 
@@ -42,3 +42,4 @@ export default function PublicHeader() {
     </header>
   )
 }
+

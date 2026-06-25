@@ -1,4 +1,4 @@
-import { createContext, useState, useCallback, useMemo } from 'react'
+﻿import { createContext, useState, useCallback, useMemo } from 'react'
 import * as authService from '../services/authService.js'
 
 // Context de autenticación del cliente del Homebanking.
@@ -35,3 +35,4 @@ export function HBAuthProvider({ children }) {
 
   return <HBAuthContext.Provider value={value}>{children}</HBAuthContext.Provider>
 }
+

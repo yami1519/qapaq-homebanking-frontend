@@ -1,9 +1,9 @@
-import axios from 'axios'
+﻿import axios from 'axios'
 
 export const TOKEN_KEY = 'hb_token'
 export const USER_KEY = 'hb_user'
 
-const baseURL = import.meta.env.VITE_BASE_URL || 'http://localhost:8002'
+const baseURL = import.meta.env.VITE_BASE_URL || 'https://qapaq-homebanking-backend.onrender.com'
 
 // Instancia central de axios para todo el Homebanking.
 const hbApi = axios.create({
@@ -42,3 +42,4 @@ hbApi.interceptors.response.use(
 )
 
 export default hbApi
+

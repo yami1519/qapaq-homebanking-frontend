@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { FilePlus2, ArrowLeft, Clock } from 'lucide-react'
 import { useSolicitudCredito } from '../hooks/useOperaciones.js'
@@ -149,3 +149,4 @@ export default function SolicitarCreditoPage() {
     </PageLayout>
   )
 }
+

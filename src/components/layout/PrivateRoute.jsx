@@ -1,4 +1,4 @@
-import { Navigate, useLocation } from 'react-router-dom'
+﻿import { Navigate, useLocation } from 'react-router-dom'
 import { useHBAuth } from '../../hooks/useHBAuth.js'
 
 // Protege rutas: si no hay sesión, redirige a /login.
@@ -11,3 +11,4 @@ export default function PrivateRoute({ children }) {
   }
   return children
 }
+

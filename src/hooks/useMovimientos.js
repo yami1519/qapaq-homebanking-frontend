@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+﻿import { useState, useEffect, useCallback } from 'react'
 import { getMovimientos, getDetalleAhorro } from '../services/cuentasService.js'
 import { extractError } from '../utils/format.js'
 
@@ -56,3 +56,4 @@ export function useMovimientos(codcuentaahorro, limit = 50) {
 }
 
 export default useMovimientos
+

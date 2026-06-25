@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+﻿import { useState, useEffect, useCallback } from 'react'
 import { getCuentasCredito, getCuotas } from '../services/cuentasService.js'
 import { extractError } from '../utils/format.js'
 
@@ -54,3 +54,4 @@ export function useCuotas(codcuentacredito) {
 }
 
 export default useCreditos
+

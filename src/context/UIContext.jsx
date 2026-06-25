@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback, useMemo } from 'react'
+﻿import { createContext, useContext, useState, useCallback, useMemo } from 'react'
 
 // Estado de UI compartido: principalmente el toggle "Ocultar importes" (patrón BBVA).
 const UIContext = createContext(null)
@@ -25,3 +25,4 @@ export function useUI() {
   if (!ctx) return { hideAmounts: false, toggleHideAmounts: () => {} }
   return ctx
 }
+

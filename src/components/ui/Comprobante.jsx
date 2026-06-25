@@ -1,4 +1,4 @@
-import { CheckCircle2, Printer } from 'lucide-react'
+﻿import { CheckCircle2, Printer } from 'lucide-react'
 
 /**
  * Tarjeta de comprobante tras una operación.
@@ -48,3 +48,4 @@ export default function Comprobante({ titulo = 'Operación exitosa', mensaje, fi
     </div>
   )
 }
+

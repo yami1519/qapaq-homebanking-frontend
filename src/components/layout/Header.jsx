@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { LogOut, UserCog, Eye, EyeOff, ChevronDown } from 'lucide-react'
 import { useHBAuth } from '../../hooks/useHBAuth.js'
@@ -97,3 +97,4 @@ export default function Header() {
     </header>
   )
 }
+

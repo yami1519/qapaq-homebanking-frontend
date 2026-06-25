@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Layout de página estilo BBVA: contenido principal a la izquierda y un panel
  * de acciones/accesos a la derecha. Si no se pasa `aside`, ocupa todo el ancho.
  */
@@ -21,3 +21,4 @@ export default function PageLayout({ title, subtitle, actions, aside, children }
     </div>
   )
 }
+

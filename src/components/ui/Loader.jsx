@@ -1,4 +1,4 @@
-// Indicador de carga centrado.
+﻿// Indicador de carga centrado.
 export default function Loader({ text = 'Cargando…' }) {
   return (
     <div className="hb-loader">
@@ -7,3 +7,4 @@ export default function Loader({ text = 'Cargando…' }) {
     </div>
   )
 }
+

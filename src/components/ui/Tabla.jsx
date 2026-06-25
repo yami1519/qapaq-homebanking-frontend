@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Tabla reutilizable.
  * Props:
  *   columns: [{ key, header, align?, render?(row) }]
@@ -46,3 +46,4 @@ export default function Tabla({ columns, rows, rowKey, emptyText = 'No hay regis
     </div>
   )
 }
+

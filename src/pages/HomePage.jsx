@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+﻿import { useNavigate } from 'react-router-dom'
 import {
   Wallet, CreditCard, Send, Receipt, FileText, FilePlus2,
   PiggyBank, ChevronRight, TrendingDown, TrendingUp,
@@ -126,3 +126,4 @@ function primerNombre(nombre) {
   const np = (parts[1] || parts[0]).trim().split(/\s+/)[0]
   return np || 'Cliente'
 }
+

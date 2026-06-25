@@ -1,4 +1,4 @@
-// Utilidades de formato para el Homebanking.
+﻿// Utilidades de formato para el Homebanking.
 // El backend devuelve montos como strings (p.ej. "7071.3800") y fechas ISO "yyyy-mm-dd".
 
 /**
@@ -84,3 +84,4 @@ export function extractError(err, defaultMessage = 'Ocurrió un error. Intente n
   }
   return defaultMessage
 }
+

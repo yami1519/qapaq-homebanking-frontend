@@ -1,4 +1,4 @@
-import hbApi from './hb_api.js'
+﻿import hbApi from './hb_api.js'
 
 // POST /operaciones/transferencia { cuenta_origen, cuenta_destino, monto } -> TransferenciaResponse
 export async function transferir({ cuenta_origen, cuenta_destino, monto }) {
@@ -46,3 +46,4 @@ export async function pagarServicio({ cuenta_origen, codservicio, codsuministro,
   })
   return data
 }
+

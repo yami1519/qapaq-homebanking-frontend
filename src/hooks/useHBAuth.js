@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+﻿import { useContext } from 'react'
 import { HBAuthContext } from '../context/HBAuthContext.jsx'
 
 // Acceso al contexto de autenticación: { user, token, isAuthenticated, login, logout }.
@@ -11,3 +11,4 @@ export function useHBAuth() {
 }
 
 export default useHBAuth
+

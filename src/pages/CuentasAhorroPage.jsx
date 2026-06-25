@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
   Wallet, ListChecks, ChevronDown, RefreshCw,
@@ -104,3 +104,4 @@ function CuentaItem({ cuenta, abierta, onToggle, onMovimientos }) {
     </div>
   )
 }
+

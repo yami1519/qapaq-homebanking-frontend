@@ -1,4 +1,4 @@
-// Badge de estado. Colorea automáticamente según el texto del estado.
+﻿// Badge de estado. Colorea automáticamente según el texto del estado.
 export default function Badge({ estado, tone }) {
   const text = estado ?? '—'
   const variant = tone || toneFor(text)
@@ -12,3 +12,4 @@ function toneFor(estado) {
   if (/(evaluaci|pendiente|proceso|revisi)/.test(e)) return 'amber'
   return 'gray'
 }
+

@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+﻿import { useState, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Send, ArrowLeft, ArrowRight, ShieldCheck } from 'lucide-react'
 import { useCuentas } from '../hooks/useCuentas.js'
@@ -151,3 +151,4 @@ export default function TransferenciaPage() {
     </PageLayout>
   )
 }
+

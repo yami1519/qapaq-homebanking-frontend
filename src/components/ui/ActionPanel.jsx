@@ -1,4 +1,4 @@
-import { ChevronRight } from 'lucide-react'
+﻿import { ChevronRight } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 
 /**
@@ -28,3 +28,4 @@ export default function ActionPanel({ title, items = [], variant = 'list' }) {
     </section>
   )
 }
+

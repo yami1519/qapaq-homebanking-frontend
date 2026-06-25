@@ -1,4 +1,4 @@
-import hbApi from './hb_api.js'
+﻿import hbApi from './hb_api.js'
 
 // GET /cuentas/ahorro -> CuentaAhorroOut[]
 export async function getCuentasAhorro() {
@@ -35,3 +35,4 @@ export async function getCuotas(codcuentacredito) {
   )
   return Array.isArray(data) ? data : []
 }
+

@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from 'react-router-dom'
+﻿import { useParams, useNavigate } from 'react-router-dom'
 import { ArrowLeft, ListChecks, RefreshCw } from 'lucide-react'
 import { useMovimientos } from '../hooks/useMovimientos.js'
 import { useCuentas } from '../hooks/useCuentas.js'
@@ -76,3 +76,4 @@ export default function MovimientosPage() {
     </PageLayout>
   )
 }
+

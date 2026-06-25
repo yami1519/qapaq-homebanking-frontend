@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+﻿import { useNavigate } from 'react-router-dom'
 import {
   CreditCard, Wallet, PiggyBank, Send, Smartphone, ShieldCheck,
   TrendingUp, Clock, MapPin, ArrowRight, Lock, BadgePercent, Briefcase,
@@ -126,3 +126,4 @@ export default function LandingPage() {
     </div>
   )
 }
+

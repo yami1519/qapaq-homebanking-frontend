@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { Receipt, ArrowLeft, ArrowRight, ShieldCheck } from 'lucide-react'
 import { useCreditos, useCuotas } from '../hooks/useCreditos.js'
@@ -192,3 +192,4 @@ export default function PagoCreditoPage() {
     </PageLayout>
   )
 }
+

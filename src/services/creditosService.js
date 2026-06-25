@@ -1,4 +1,4 @@
-import hbApi from './hb_api.js'
+﻿import hbApi from './hb_api.js'
 
 /**
  * POST /creditos/solicitar -> SolicitudCreditoResponse
@@ -9,3 +9,4 @@ export async function solicitarCredito(payload) {
   const { data } = await hbApi.post('/creditos/solicitar', payload)
   return data
 }
+

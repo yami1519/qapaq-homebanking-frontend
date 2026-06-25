@@ -1,4 +1,4 @@
-import { AlertCircle, CheckCircle2, Info, AlertTriangle } from 'lucide-react'
+﻿import { AlertCircle, CheckCircle2, Info, AlertTriangle } from 'lucide-react'
 
 // Mensaje de alerta. tipo: 'error' | 'success' | 'info' | 'warn'
 const ICONS = {
@@ -18,3 +18,4 @@ export default function Alert({ tipo = 'info', children }) {
     </div>
   )
 }
+

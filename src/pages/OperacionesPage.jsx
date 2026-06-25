@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+﻿import { useNavigate } from 'react-router-dom'
 import { Send, Receipt, FileText, FilePlus2, ChevronRight } from 'lucide-react'
 import PageLayout from '../components/layout/PageLayout.jsx'
 
@@ -53,3 +53,4 @@ export default function OperacionesPage() {
     </PageLayout>
   )
 }
+

@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from 'react-router-dom'
+﻿import { useParams, useNavigate } from 'react-router-dom'
 import { ArrowLeft, CalendarDays, Receipt, RefreshCw } from 'lucide-react'
 import { useCuotas } from '../hooks/useCreditos.js'
 import { formatDate } from '../utils/format.js'
@@ -65,3 +65,4 @@ export default function CuotasCreditoPage() {
     </PageLayout>
   )
 }
+

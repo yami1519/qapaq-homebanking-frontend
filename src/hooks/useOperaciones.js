@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+﻿import { useState, useEffect, useCallback } from 'react'
 import { pagarCuota, transferir, pagarServicio, getServicios } from '../services/operacionesService.js'
 import { solicitarCredito } from '../services/creditosService.js'
 import { extractError } from '../utils/format.js'
@@ -75,3 +75,4 @@ export function useSolicitudCredito() {
 }
 
 export default useOperacion
+
