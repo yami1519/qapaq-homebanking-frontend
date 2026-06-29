@@ -84,12 +84,25 @@ export default function SolicitarCreditoPage() {
             <dl className="hb-dl">
               <div><dt>Código de solicitud</dt><dd>{result.codsolicitud}</dd></div>
               <div><dt>Estado</dt><dd><Badge estado={result.estado} /></dd></div>
+              {result.semaforo && <div><dt>Semáforo</dt><dd><Badge estado={result.semaforo} /></dd></div>}
+              {result.resultado && <div><dt>Resultado</dt><dd>{result.resultado}</dd></div>}
               <div><dt>Monto solicitado</dt><dd><Money value={result.montosolicitud} /></dd></div>
               <div><dt>Plazo</dt><dd>{result.plazo} cuotas</dd></div>
+              {result.tea_sugerida != null && <div><dt>TEA sugerida</dt><dd>{Number(result.tea_sugerida).toFixed(2)}%</dd></div>}
+              {result.tem_sugerida != null && <div><dt>TEM calculada</dt><dd>{Number(result.tem_sugerida).toFixed(4)}%</dd></div>}
+              {result.cuota_estimada != null && <div><dt>Cuota estimada</dt><dd><Money value={result.cuota_estimada} /></dd></div>}
+              {result.rds != null && <div><dt>RDS</dt><dd>{Number(result.rds).toFixed(2)}%</dd></div>}
             </dl>
-            <p style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--hb-amber)', fontSize: 13, marginBottom: 0 }}>
-              <Clock size={15} /> Su solicitud pasará por evaluación de Financiera Qapaq y del core financiero. Le notificaremos el resultado.
-            </p>
+            {result.observaciones?.length > 0 && (
+              <Alert tipo={result.resultado === 'NO APTO' ? 'error' : 'warn'}>
+                {result.observaciones.join(' ')}
+              </Alert>
+            )}
+            {result.resultado !== 'NO APTO' && (
+              <p style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--hb-amber)', fontSize: 13, marginBottom: 0 }}>
+                <Clock size={15} /> Su solicitud pasará por evaluación de Financiera Qapaq y del core financiero. Le notificaremos el resultado.
+              </p>
+            )}
           </div>
           <div className="bbva-form-actions">
             <button className="bbva-btn-gray" onClick={nuevaSolicitud}>Nueva solicitud</button>
